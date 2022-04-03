@@ -11,7 +11,7 @@ export const MAX_NAME_LENGTH = 32;
 export const MAX_URI_LENGTH = 200;
 export const MAX_SYMBOL_LENGTH = 10;
 export const MAX_CREATOR_LEN = 32 + 1 + 1;
-export const MAX_CREATOR_LIMIT = 5;
+export const MAX_CREATOR_LIMIT = 1;
 export const ARWEAVE_PAYMENT_WALLET = new PublicKey(
   '6FKvsq4ydWFci6nGq9ckbjYMtnmaqAoatz5c9XWjiDuS',
 );
@@ -121,7 +121,7 @@ type Cluster = {
 export const CLUSTERS: Cluster[] = [
   {
     name: 'mainnet-beta',
-    url: "https://floral-dawn-brook.solana-mainnet.quiknode.pro/a28ff1aa0d28e4cfd64f39f1c613121d2343d2c0/",//'https://api.metaplex.solana.com/',
+    url: 'https://floral-dawn-brook.solana-mainnet.quiknode.pro/a28ff1aa0d28e4cfd64f39f1c613121d2343d2c0/', //'https://api.metaplex.solana.com/',
   },
   {
     name: 'testnet',
