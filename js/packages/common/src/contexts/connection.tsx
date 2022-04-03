@@ -45,7 +45,7 @@ export const ENDPOINTS: Array<Endpoint> = [
   {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
-    url: 'https://api.metaplex.solana.com/',
+    url: "https://floral-dawn-brook.solana-mainnet.quiknode.pro/a28ff1aa0d28e4cfd64f39f1c613121d2343d2c0/",//'https://api.metaplex.solana.com/',
     chainId: ChainId.MainnetBeta,
   },
   {

@@ -103,7 +103,7 @@ export type ENV = 'mainnet-beta' | 'testnet' | 'devnet' | 'localnet';
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://api.metaplex.solana.com/',
+    endpoint: "https://floral-dawn-brook.solana-mainnet.quiknode.pro/a28ff1aa0d28e4cfd64f39f1c613121d2343d2c0/",//'https://api.metaplex.solana.com/',
     ChainId: ChainId.MainnetBeta,
   },
   {

@@ -497,7 +497,7 @@ export async function* makeArweaveBundleUploadGenerator(
             walletKeyPair.secretKey,
             {
               timeout: 60000,
-              providerUrl: rpcUrl ?? 'https://api.metaplex.solana.com',
+              providerUrl: rpcUrl ?? "https://floral-dawn-brook.solana-mainnet.quiknode.pro/a28ff1aa0d28e4cfd64f39f1c613121d2343d2c0/",//'https://api.metaplex.solana.com',
             },
           )
         : new Bundlr(
